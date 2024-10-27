@@ -49,3 +49,14 @@ To install these dependencies, include the following in your `Cargo.toml` file:
   ## Sample Output
   >```
   >The curves are isomorphic with u = 2
+
+## Contributing
+  - If you intend to contribute to this project, fork the repository and make a pull request.
+## Acknowledgments
+- Rust
+
+## Clone the repository:
+
+   ```bash
+   git clone https://github.com/cypriansakwa/Elliptic_Curve_Isomorphism_Checker_over_Finite_Fields_in_Rust.git
+   cd Elliptic_Curve_Isomorphism_Checker_over_Finite_Fields_in_Rust
