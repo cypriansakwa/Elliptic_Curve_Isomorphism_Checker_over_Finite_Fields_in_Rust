@@ -27,9 +27,25 @@ This project requires the following crates:
 
 To install these dependencies, include the following in your `Cargo.toml` file:
 
-<```
-[dependencies]
-num-bigint = "0.4"
-num-traits = "0.2"
+>```
+>[dependencies]
+>num-bigint = "0.4"
+>num-traits = "0.2"
 
 ## Usage
+- Clone the repository:
+>```
+>git clone https://github.com/yourusername/Elliptic_Curve_Isomorphism_Checker_over_Finite_Fields_in_Rust.git
+- Navigate to the project directory:
+>```
+>cd Elliptic_Curve_Isomorphism_Checker_over_Finite_Fields_in_Rust
+- Run the program:
+>```
+>cargo run
+## Example 
+  - Curve 1: $y^2 = x^3 + x + 1$ over $\mathbb{F}_5$
+  - Curve 2:  $y^2 = x^3 + x + 4$  over $\mathbb{F}_5$
+- The program checks if these two curves are isomorphic and, if so, provides the value of `u`.
+  ## Sample Output
+  >```
+  >The curves are isomorphic with u = 2
