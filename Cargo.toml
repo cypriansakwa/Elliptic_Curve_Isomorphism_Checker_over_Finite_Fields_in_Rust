@@ -1,0 +1,8 @@
+[package]
+name = "Elliptic_Curve_Isomorphism_Checker_over_Finite_Fields_in_Rust"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+num-bigint = "0.4"  # Check the latest version on crates.io
+num-traits = "0.2"
