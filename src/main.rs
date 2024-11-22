@@ -46,19 +46,19 @@ fn isomorphic(curve1: &EllipticCurve, curve2: &EllipticCurve) -> Option<BigUint>
 
 fn main() {
     // Example curves over a finite field with p = 5
-    let p = BigUint::from(5u32);
+    let p = BigUint::from(17u32);
 
     // Curve 1: y^2 = x^3 + x + 1
     let curve1 = EllipticCurve {
-        a: BigUint::from(1u32),
-        b: BigUint::from(1u32),
+        a: BigUint::from(7u32),
+        b: BigUint::from(11u32),
         p: p.clone(),
     };
 
     // Curve 2: y^2 = x^3 + x + 4
     let curve2 = EllipticCurve {
-        a: BigUint::from(1u32),
-        b: BigUint::from(4u32),
+        a: BigUint::from(7u32),
+        b: BigUint::from(6u32),
         p: p.clone(),
     };
 
